@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite" thread-count="1">
-    <test name="Test Chrome">
-        <parameter name="browser" value="CHROME"></parameter>
-        <classes>
-            <class name="TestCases.LoginHomeTest">
-                <methods>
-                    <include name="titlePage"/>
-                    <include name="login"/>
-                    <include name="register"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-    <test name="Test Firefox">
-        <parameter name="browser" value="FIREFOX"></parameter>
-        <classes>
-            <class name="TestCases.LoginHomeTest">
-                <methods>
-                    <include name="titlePage"/>
-                    <include name="login"/>
-                    <include name="register"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
 
     <test name="Test Opera">
         <parameter name="browser" value="OPERA"></parameter>
