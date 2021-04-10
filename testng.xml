@@ -28,8 +28,8 @@
         </classes>
     </test>
 
-    <test name="Test Opera">
-        <parameter name="browser" value="OPERA"></parameter>
+    <test name="Test Edge">
+        <parameter name="browser" value="EDGE"></parameter>
         <classes>
             <class name="TestCases.LoginHomeTest">
                 <methods>
